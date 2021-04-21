@@ -1,0 +1,5 @@
+[ansibleserver]
+10.10.111.55
+
+[dbserver]
+10.10.111.54

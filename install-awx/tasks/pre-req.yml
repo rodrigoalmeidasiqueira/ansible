@@ -11,15 +11,8 @@
     - gnupg2  
     - software-properties-common
     - python3-pip
-    - npm
-    - nodejs
     - ansible
     update_cache: yes
-
-- name: Install "NPM" node.js package globally.
-  npm:
-    name: npm
-    global: yes
 
 - name: Install Compose
   pip:

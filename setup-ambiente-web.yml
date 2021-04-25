@@ -2,5 +2,5 @@
   become: yes
   user: adminlx
   roles:
-  - { role: install-dp, tags: ["install_dp"]}
+  - { role: install-db, tags: ["install_db"]}
   - { role: install-wp, tags: ["install_wp"]}    

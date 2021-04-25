@@ -1,0 +1,6 @@
+- hosts: all
+  become: yes
+  user: adminlx
+  roles:
+  - { role: install-dp, tags: ["install_dp"]}
+  - { role: install-wp, tags: ["install_wp"]}    
